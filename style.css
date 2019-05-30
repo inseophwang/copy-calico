@@ -9,6 +9,7 @@ p{
 
 .right-header{
     float: right;
+    margin-top: 0;
     
 }
 
@@ -31,18 +32,43 @@ p:hover{
     border-width: thin;
     border-color: lightgrey;
     width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 a{
     display: block;
-    margin-left: auto;
+    margin-top: auto;
     margin-right: auto;
     width: 50%;
     padding: 32px 109px;
+    padding-bottom: 5px;
+
 }
 
-.search{
+input[type=text]{
+    border-radius: 12px;
     text-align: center;
-    border: 0;
+    margin-left: 75px;
+    border-style: solid;
+    border: 20px;
+    border-color: black;
+    padding-left: 20px;
+    height: 9px;
+    outline: none;
+}
 
+input:hover{
+    box-shadow: 0 0 3px #ccc;
+}
+
+button{
+    background-color: #F2F2F2;
+    border: 0;
+    color:#757575;
+    font-size:3px;
+    font-family:arial;
+    border-radius: 2px;
+    margin-left: 55px;
+    margin-right: 5px;
 }
